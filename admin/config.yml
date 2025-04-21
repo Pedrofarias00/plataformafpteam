@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "pagina_principal"
+    label: "Landing Page"
+    files:
+      - label: "Conteúdo Principal"
+        name: "conteudo"
+        file: "content/landing-page.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Texto do Banner", name: "banner_text", widget: "string" }
+          - { label: "Sobre Nós", name: "about", widget: "markdown" }
+          - { label: "Nossos Serviços", name: "services", widget: "list", field: { label: "Serviço", name: "servico", widget: "string" } }
+          - label: "Depoimentos"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Nome do Cliente", name: "author", widget: "string" }
+              - { label: "Feedback", name: "feedback", widget: "markdown" }
