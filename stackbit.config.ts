@@ -1,5 +1,5 @@
 
-import { defineStackbitConfig } from '@stackbit/types';
+import { defineStackbitConfig, SiteMapEntry } from '@stackbit/types';
 import { GitContentSource } from '@stackbit/cms-git';
 
 export default defineStackbitConfig({
@@ -36,5 +36,28 @@ export default defineStackbitConfig({
       ]
     })
   ],
+  siteMap: ({ documents, models }) => {
+    // Filter all page models
+    const pageModels = models.filter((m) => m.type === "page");
+
+    return documents
+      // Filter all documents which are of a page model
+      .filter((d) => pageModels.some(m => m.name === d.modelName))
+      // Map each document to a SiteMapEntry
+      .map((document) => {
+        // For our simple landing page, we just have a root URL
+        if (document.modelName === 'landing_page') {
+          return {
+            stableId: document.id,
+            urlPath: "/",
+            document,
+            isHomePage: true,
+          };
+        }
+        
+        return null;
+      })
+      .filter(Boolean) as SiteMapEntry[];
+  },
   postInstallCommand: "npm i --no-save @stackbit/types @stackbit/cms-git"
 });
