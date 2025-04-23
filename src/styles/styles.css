@@ -1,3 +1,4 @@
+
 /* Reset e estilos base */
 * {
   margin: 0;
@@ -161,52 +162,65 @@ nav .menu {
 
 /* Hero Banner */
 .hero {
-  min-height: 100vh;
+  min-height: 92vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  background: linear-gradient(136deg, #021127 55%, #03455E 100%);
+  margin-top: 0;
   overflow: hidden;
+  position: relative;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  box-shadow: 0 12px 48px 0 rgba(15,160,206,0.12), 0 4px 12px 0 rgba(0,44,96,0.06);
 }
 
 .hero-content {
+  position: relative;
   text-align: center;
-  color: var(--white);
   z-index: 10;
-  max-width: 800px;
-  padding: 0 20px;
+  max-width: 700px;
+  padding: 0 12px;
+  margin: 0 auto;
 }
 
 .hero h1 {
-  font-size: 4rem;
-  margin-bottom: 20px;
+  font-size: 3.3rem;
+  color: var(--white);
+  line-height: 1.16;
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
   font-family: 'Sora', sans-serif;
-  line-height: 1.2;
 }
 
 .hero p {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-  color: rgba(255,255,255,0.9);
+  font-size: 1.2rem;
+  color: #e2f8ff;
+  margin-bottom: 25px;
+  font-weight: 400;
 }
 
 .cta-button {
   display: inline-block;
-  padding: 15px 50px;
-  background: var(--brand-blue);
-  color: var(--white);
-  text-transform: uppercase;
-  font-family: 'Sora', sans-serif;
-  font-weight: 700;
   border-radius: 50px;
-  transition: all 0.3s ease;
+  font-family: 'Sora', sans-serif;
+  padding: 14px 48px;
+  background: linear-gradient(93deg, var(--brand-blue) 42%, #003356 90%);
+  color: #fff;
+  font-size: 1.03rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 8px 28px -4px var(--brand-blue);
+  border: none;
+  transition: var(--transition);
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 .cta-button:hover {
-  background: var(--primary-blue);
-  transform: scale(1.05);
+  background: linear-gradient(90deg, #0083bc 20%, #0574a5 100%);
+  box-shadow: 0 8px 46px -6px var(--brand-blue);
+  color: #fff;
+  transform: translateY(-1px) scale(1.022);
 }
 
 .glow-effect {
