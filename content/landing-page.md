@@ -1,7 +1,7 @@
 
 ---
-title: FP TEAM - Mudando a sua Identidade. Superando seus Limites.
-banner_text: Mudando Identidades. Superando seus Limites.
+title: FP TEAM - Transforme seu Corpo. Supere seus Limites.
+banner_text: Transforme seu Corpo. Supere seus Limites.
 about: |
   Somos uma equipe de profissionais especializados em transformação física e aumento de performance. Nossa missão é proporcionar um atendimento exclusivo e personalizado, baseado na ciência e na experiência prática.
   
