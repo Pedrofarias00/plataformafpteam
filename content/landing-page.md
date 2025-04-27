@@ -28,7 +28,7 @@ testimonials:
     profession: Médico, 38 anos
     feedback: Mesmo com uma rotina extremamente agitada, consegui implementar o programa da FP TEAM e os resultados vieram rapidamente. A consultoria online é completa e super eficiente.
 contact_info:
-  address: Av. Exemplo, 123 - Bairro Premium, São Paulo - SP
-  phone: (11) 99999-9999
-  email: contato@fpteam.com.br
+  address: Av. Simão da Cunha Gago, 342 - Aterrado, Volta Redonda - RJ, 27213-170
+  phone: (24) 99994-0229
+  email: atendimento@fpteam.com
 ---
