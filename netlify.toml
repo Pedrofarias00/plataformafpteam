@@ -1,0 +1,10 @@
+
+[build]
+  publish = "/"
+  command = "# no build command"
+
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+[template.environment]
+  NETLIFY_CMS_MANUAL_INIT = "true"
