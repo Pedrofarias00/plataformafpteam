@@ -1,0 +1,22 @@
+
+{
+  "title": "Depoimentos dos",
+  "title_highlight": "Clientes",
+  "items": [
+    {
+      "author": "Carlos M.",
+      "profession": "Empresário, 42 anos",
+      "feedback": "A metodologia da FP TEAM mudou completamente minha relação com o treinamento. Em apenas 3 meses, consegui resultados que não alcancei em anos de academia convencional."
+    },
+    {
+      "author": "Mariana S.",
+      "profession": "Advogada, 35 anos",
+      "feedback": "O atendimento personalizado fez toda diferença para mim. Superei minhas expectativas em performance e transformação corporal, seguindo um programa específico para minhas necessidades."
+    },
+    {
+      "author": "Rafael D.",
+      "profession": "Médico, 38 anos",
+      "feedback": "Mesmo com uma rotina extremamente agitada, consegui implementar o programa da FP TEAM e os resultados vieram rapidamente. A consultoria online é completa e super eficiente."
+    }
+  ]
+}

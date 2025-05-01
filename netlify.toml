@@ -8,3 +8,4 @@
 
 [template.environment]
   NETLIFY_CMS_MANUAL_INIT = "true"
+  STACKBIT_PREVIEW_MODE = "true"

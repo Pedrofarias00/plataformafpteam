@@ -1,0 +1,26 @@
+
+{
+  "title": "Entre em",
+  "title_highlight": "Contato",
+  "submit_text": "Enviar Mensagem",
+  "contact_info": {
+    "address": {
+      "title": "Endereço",
+      "value": "Av. Simão da Cunha Gago, 342 - Aterrado, Volta Redonda - RJ"
+    },
+    "phone": {
+      "title": "Telefone",
+      "value": "(24) 99994-0229"
+    },
+    "email": {
+      "title": "E-mail",
+      "value": "contato@fpteam.com"
+    },
+    "social_media": [
+      {"platform": "instagram", "url": "#"},
+      {"platform": "whatsapp", "url": "#"},
+      {"platform": "facebook-f", "url": "#"},
+      {"platform": "youtube", "url": "#"}
+    ]
+  }
+}

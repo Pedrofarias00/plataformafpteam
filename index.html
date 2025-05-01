@@ -12,6 +12,9 @@
     <meta property="og:description" content="Transformação física e alta performance com a FP TEAM" />
     <meta property="og:type" content="website" />
     
+    <!-- Favicon atualizado -->
+    <link rel="icon" href="public/lovable-uploads/e1b1a516-0dc7-478d-867e-1df6f69e4762.png" type="image/png">
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +38,7 @@
     <header id="home">
       <div class="container">
         <div class="logo">
-          <img src="public/lovable-uploads/e1b1a516-0dc7-478d-867e-1df6f69e4762.png" alt="FP TEAM Logo">
+          <img src="public/lovable-uploads/e1b1a516-0dc7-478d-867e-1df6f69e4762.png" alt="FP TEAM Logo" id="logo-img">
         </div>
         <nav>
           <div class="menu-mobile">
@@ -46,10 +49,10 @@
             </div>
           </div>
           <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Planos e Serviços</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="#home" id="nav-home">Home</a></li>
+            <li><a href="#sobre" id="nav-sobre">Sobre</a></li>
+            <li><a href="#servicos" id="nav-servicos">Planos e Serviços</a></li>
+            <li><a href="#contato" id="nav-contato">Contato</a></li>
           </ul>
         </nav>
       </div>
@@ -60,9 +63,9 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="hero-content">
-          <h1 class="fade-in">Mudando Identidades.<br>Superando seus Limites.</h1>
-          <p class="fade-in delay-1">A FP TEAM combina ciência e experiência para elevar sua performance física ao máximo potencial</p>
-          <a href="#" class="cta-button fade-in delay-2">Agendar Reunião</a>
+          <h1 class="fade-in" id="banner-title">Mudando Identidades.<br>Superando seus Limites.</h1>
+          <p class="fade-in delay-1" id="banner-subtitle">A FP TEAM combina ciência e experiência para elevar sua performance física ao máximo potencial</p>
+          <a href="#" class="cta-button fade-in delay-2" id="banner-cta">Agendar Reunião</a>
         </div>
       </div>
       <div class="glow-effect"></div>
@@ -72,14 +75,14 @@
     <section id="sobre" class="about">
       <div class="container">
         <div class="section-header">
-          <h2>Sobre a <span>FP TEAM</span></h2>
+          <h2>Sobre a <span id="about-title-highlight">FP TEAM</span></h2>
           <div class="divider"></div>
         </div>
         <div class="about-content">
           <div class="about-text">
-            <p>Somos uma equipe de profissionais especializados em transformação física e aumento de performance. Nossa missão é proporcionar um atendimento exclusivo e personalizado, baseado na ciência e na experiência prática.</p>
-            <p>Trabalhamos com métodos inovadores que garantem resultados duradouros, combinando técnicas avançadas de treinamento e uma abordagem holística para o condicionamento físico.</p>
-            <a href="#" class="secondary-button">Conheça Nossa História</a>
+            <p id="about-text-1">Somos uma equipe de profissionais especializados em transformação física e aumento de performance. Nossa missão é proporcionar um atendimento exclusivo e personalizado, baseado na ciência e na experiência prática.</p>
+            <p id="about-text-2">Trabalhamos com métodos inovadores que garantem resultados duradouros, combinando técnicas avançadas de treinamento e uma abordagem holística para o condicionamento físico.</p>
+            <a href="#" class="secondary-button" id="about-cta">Conheça Nossa História</a>
           </div>
           <div class="about-image">
             <div class="image-container">
@@ -94,34 +97,11 @@
     <section id="servicos" class="services">
       <div class="container">
         <div class="section-header">
-          <h2>Planos e <span>Serviços</span></h2>
+          <h2>Planos e <span id="services-title-highlight">Serviços</span></h2>
           <div class="divider"></div>
         </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="icon-container">
-              <i class="fas fa-dumbbell"></i>
-            </div>
-            <h3>Atendimento Presencial</h3>
-            <p>Acompanhamento exclusivo com treinos personalizados e ajustes em tempo real para maximizar seus resultados.</p>
-            <a href="#" class="service-button">Saiba Mais</a>
-          </div>
-          <div class="service-card">
-            <div class="icon-container">
-              <i class="fas fa-laptop"></i>
-            </div>
-            <h3>Consultoria Online</h3>
-            <p>Orientação à distância com programas de treino e nutrição adaptados ao seu perfil e objetivos específicos.</p>
-            <a href="#" class="service-button">Saiba Mais</a>
-          </div>
-          <div class="service-card">
-            <div class="icon-container">
-              <i class="fas fa-lock"></i>
-            </div>
-            <h3>Área de Membros Exclusiva</h3>
-            <p>Acesso ao conteúdo premium com vídeos, materiais educativos e suporte direto dos nossos especialistas.</p>
-            <a href="#" class="service-button">Saiba Mais</a>
-          </div>
+        <div class="services-grid" id="services-grid">
+          <!-- Os serviços serão carregados dinamicamente via JavaScript -->
         </div>
       </div>
     </section>
@@ -130,61 +110,11 @@
     <section id="depoimentos" class="testimonials">
       <div class="container">
         <div class="section-header">
-          <h2>Depoimentos dos <span>Clientes</span></h2>
+          <h2>Depoimentos dos <span id="testimonials-title-highlight">Clientes</span></h2>
           <div class="divider"></div>
         </div>
-        <div class="testimonial-slider">
-          <div class="testimonial-container">
-            <div class="testimonial">
-              <div class="client-image">
-                <div class="image-placeholder">
-                  <i class="fas fa-user"></i>
-                </div>
-              </div>
-              <div class="testimonial-content">
-                <div class="quote"><i class="fas fa-quote-left"></i></div>
-                <p>A metodologia da FP TEAM mudou completamente minha relação com o treinamento. Em apenas 3 meses, consegui resultados que não alcancei em anos de academia convencional.</p>
-                <div class="client-info">
-                  <h4>Carlos M.</h4>
-                  <span>Empresário, 42 anos</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-container">
-            <div class="testimonial">
-              <div class="client-image">
-                <div class="image-placeholder">
-                  <i class="fas fa-user"></i>
-                </div>
-              </div>
-              <div class="testimonial-content">
-                <div class="quote"><i class="fas fa-quote-left"></i></div>
-                <p>O atendimento personalizado fez toda diferença para mim. Superei minhas expectativas em performance e transformação corporal, seguindo um programa específico para minhas necessidades.</p>
-                <div class="client-info">
-                  <h4>Mariana S.</h4>
-                  <span>Advogada, 35 anos</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-container">
-            <div class="testimonial">
-              <div class="client-image">
-                <div class="image-placeholder">
-                  <i class="fas fa-user"></i>
-                </div>
-              </div>
-              <div class="testimonial-content">
-                <div class="quote"><i class="fas fa-quote-left"></i></div>
-                <p>Mesmo com uma rotina extremamente agitada, consegui implementar o programa da FP TEAM e os resultados vieram rapidamente. A consultoria online é completa e super eficiente.</p>
-                <div class="client-info">
-                  <h4>Rafael D.</h4>
-                  <span>Médico, 38 anos</span>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="testimonial-slider" id="testimonial-slider">
+          <!-- Os depoimentos serão carregados dinamicamente via JavaScript -->
         </div>
         <div class="slider-controls">
           <div class="control prev"><i class="fas fa-chevron-left"></i></div>
@@ -197,7 +127,7 @@
     <section id="contato" class="contact">
       <div class="container">
         <div class="section-header">
-          <h2>Entre em <span>Contato</span></h2>
+          <h2>Entre em <span id="contact-title-highlight">Contato</span></h2>
           <div class="divider"></div>
         </div>
         <div class="contact-content">
@@ -215,37 +145,11 @@
                 <label for="message">Mensagem</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
               </div>
-              <button type="submit" class="submit-button">Enviar Mensagem</button>
+              <button type="submit" class="submit-button" id="contact-submit">Enviar Mensagem</button>
             </form>
           </div>
-          <div class="contact-info">
-            <div class="info-item">
-              <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-              <div class="text">
-                <h3>Endereço</h3>
-                <p>Av. Exemplo, 123 - Bairro Premium<br>São Paulo - SP</p>
-              </div>
-            </div>
-            <div class="info-item">
-              <div class="icon"><i class="fas fa-phone-alt"></i></div>
-              <div class="text">
-                <h3>Telefone</h3>
-                <p>(11) 99999-9999</p>
-              </div>
-            </div>
-            <div class="info-item">
-              <div class="icon"><i class="fas fa-envelope"></i></div>
-              <div class="text">
-                <h3>E-mail</h3>
-                <p>contato@fpteam.com.br</p>
-              </div>
-            </div>
-            <div class="social-media">
-              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-            </div>
+          <div class="contact-info" id="contact-info">
+            <!-- As informações de contato serão carregadas dinamicamente via JavaScript -->
           </div>
         </div>
       </div>
@@ -259,7 +163,7 @@
             <img src="public/lovable-uploads/e1b1a516-0dc7-478d-867e-1df6f69e4762.png" alt="FP TEAM Logo">
           </div>
           <div class="footer-text">
-            <p>&copy; 2025 FP TEAM - Todos os direitos reservados</p>
+            <p id="footer-copyright">&copy; 2025 FP TEAM - Todos os direitos reservados</p>
           </div>
         </div>
       </div>
@@ -267,6 +171,7 @@
 
     <!-- Scripts -->
     <script src="src/scripts/main.js"></script>
+    <script src="src/scripts/content-loader.js"></script>
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {

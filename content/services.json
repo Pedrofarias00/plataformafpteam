@@ -1,0 +1,25 @@
+
+{
+  "title": "Planos e",
+  "title_highlight": "Serviços",
+  "items": [
+    {
+      "icon": "dumbbell",
+      "title": "Atendimento Presencial",
+      "description": "Acompanhamento exclusivo com treinos personalizados e ajustes em tempo real para maximizar seus resultados.",
+      "link": "#"
+    },
+    {
+      "icon": "laptop",
+      "title": "Consultoria Online",
+      "description": "Orientação à distância com programas de treino e nutrição adaptados ao seu perfil e objetivos específicos.",
+      "link": "#"
+    },
+    {
+      "icon": "lock",
+      "title": "Área de Membros Exclusiva",
+      "description": "Acesso ao conteúdo premium com vídeos, materiais educativos e suporte direto dos nossos especialistas.",
+      "link": "#"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+
+{
+  "title": "FP TEAM - Mudando Identidades. Superando seus Limites.",
+  "favicon": "/lovable-uploads/e1b1a516-0dc7-478d-867e-1df6f69e4762.png",
+  "navigation": [
+    {"text": "Home", "url": "#home"},
+    {"text": "Sobre", "url": "#sobre"},
+    {"text": "Planos e Serviços", "url": "#servicos"},
+    {"text": "Contato", "url": "#contato"}
+  ]
+}
